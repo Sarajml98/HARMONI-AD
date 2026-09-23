@@ -1,46 +1,36 @@
-# General
-.DS_Store
-Thumbs.db
-.vscode/
-
 # Python
-__pycache__/
-*.py[cod]
-*$py.class
-.env
-.env.*
 .venv/
 venv/
-ENV/
-env/
-.Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
 
-# Jupyter
+# Notebooks / IDE
 .ipynb_checkpoints/
+.vscode/
+.idea/
 
-# Data and outputs (do not include large data or generated outputs)
+# Secrets / local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Medical/research data and generated artifacts
 data/
-outputs/
-
-# Virtual env site packages
-*.egg-info/
-.eggs/
-
-# Mac/Windows
-*.sqlite
-*.db
-*.h5
-
-# Ignore local secrets
-secrets.yaml
-
-# Ignore model checkpoints
-checkpoints/
-*.ckpt
-
-# Ignore large media
+datasets/
 *.nii
 *.nii.gz
+*.edf
+*.tfrecord
+*.tfrecords
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
 
-# Keep repo-specific exceptions here
-# End of .gitignore
+# OS
+.DS_Store
+Thumbs.db
