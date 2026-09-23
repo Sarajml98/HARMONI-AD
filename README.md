@@ -12,6 +12,10 @@ HARMONI-AD explores how heterogeneous Alzheimer's disease analysis components ca
 
 The thesis evaluation focused on system-level feasibility and workflow robustness rather than claiming a new state-of-the-art diagnostic model.
 
+## Key skills demonstrated
+
+**Python • Machine Learning • Multimodal Data Integration • Streamlit • Healthcare AI • Workflow Design**
+
 ## Core contribution
 
 The project focuses on the integration layer around modality-specific research components:
